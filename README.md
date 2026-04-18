@@ -88,6 +88,7 @@ Query: temu coupon code
 
 Before:
 Temu Coupon Code
+
 After:
 Temu Coupon Code April 2026 – Get Up to 50% Off Today
 
@@ -95,6 +96,7 @@ Query: temu discounts Saudi Arabia
 
 Before:
 Temu Discounts Saudi Arabia
+
 After:
 Temu Discounts Saudi Arabia 2026 – Latest Deals & Offers
 
