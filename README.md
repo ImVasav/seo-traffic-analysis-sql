@@ -1,4 +1,7 @@
-# SEO Traffic & Conversion Performance Analysis (SQL Project)
+# SEO Traffic & CTR Analysis using SQL
+
+## Overview
+This project analyzes Google Search Console data using SQL to identify high-impression queries with low CTR and recommends optimization strategies to improve organic traffic.
 
 ## 1. Problem Statement
 
@@ -62,6 +65,8 @@ ORDER BY position_group;
 * Several queries ranking in **positions 4–6 (page 1)** fail to generate clicks
 * This suggests that **ranking alone is not sufficient to drive traffic**
 
+CTR underperformance is driven more by SERP presentation than ranking position.
+
 ---
 
 ## 6. Diagnosis
@@ -77,29 +82,28 @@ Low CTR is likely caused by:
 
 ## 7. Recommendations (Before → After)
 
-### Example 1
+Improve SERP Titles (Simulation)
 
-**Query:** temu coupon code
-**Metrics:** ~11,000 impressions | 1.42% CTR | Position ~3.9
+Query: temu coupon code
 
-* **Existing/Typical Title (Before):**
-  “Temu Coupon Codes and Discounts”
+Before:
+Temu Coupon Code
+After:
+Temu Coupon Code April 2026 – Get Up to 50% Off Today
 
-* **Optimized Title (After):**
-  “Temu Coupon Code (April 2026) – Get Up to 50% Off Today”
+Query: temu discounts Saudi Arabia
 
----
+Before:
+Temu Discounts Saudi Arabia
+After:
+Temu Discounts Saudi Arabia 2026 – Latest Deals & Offers
 
-### Example 2
+### Strategic Actions
 
-**Query:** temu discount saudi arabia
-**Metrics:** ~17,000 impressions | ~0% CTR | Position ~5.8
-
-* **Existing/Typical Title (Before):**
-  “Temu Voucher Codes and Discounts Saudi Arabia”
-
-* **Optimized Title (After):**
-  “Temu Discount Code Saudi Arabia – Save Up to 40% on Orders (2026)”
+- Optimize titles to better match search intent  
+- Add freshness signals (year, latest updates) 
+- Include value-driven hooks (discount %, offers, urgency)  
+- Prioritize high-impression queries for maximum traffic gain
 
 ---
 
@@ -111,7 +115,7 @@ Example scenario:
 * Current CTR = 0.5% → 100 clicks
 * Improved CTR = 2% → 400 clicks
 
-👉 Potential gain: **+300 clicks**
+Potential gain: **+300 clicks**
 
 This demonstrates that **CTR optimization can significantly increase traffic without improving rankings**.
 
