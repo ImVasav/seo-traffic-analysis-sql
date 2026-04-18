@@ -82,31 +82,30 @@ Low CTR is likely caused by:
 
 ## 7. Recommendations (Before → After)
 
-Improve SERP Titles (Simulation)
+### Improve SERP Titles (Simulation)
 
-Query: temu coupon code
+#### Example 1: Temu Coupon Code  
+**Metrics:** ~11,000 impressions | 1.42% CTR | Position ~3.9  
 
-Before:
-Temu Coupon Code
+- **Before:** Temu Coupon Code  
+- **After:** Temu Coupon Code (April 2026) – Get Up to 50% Off Today  
 
-After:
-Temu Coupon Code April 2026 – Get Up to 50% Off Today
+---
 
-Query: temu discounts Saudi Arabia
+#### Example 2: Temu Discounts Saudi Arabia  
+**Metrics:** ~17,000 impressions | ~0% CTR | Position ~5.8  
 
-Before:
-Temu Discounts Saudi Arabia
+- **Before:** Temu Discounts Saudi Arabia  
+- **After:** Temu Discounts Saudi Arabia 2026 – Latest Deals & Offers  
 
-After:
-Temu Discounts Saudi Arabia 2026 – Latest Deals & Offers
+---
 
 ### Strategic Actions
 
 - Optimize titles to better match search intent  
-- Add freshness signals (year, latest updates) 
+- Add freshness signals (year, latest updates)  
 - Include value-driven hooks (discount %, offers, urgency)  
-- Prioritize high-impression queries for maximum traffic gain
-
+- Prioritize high-impression queries for maximum traffic gain  
 ---
 
 ## 8. Impact Estimation
